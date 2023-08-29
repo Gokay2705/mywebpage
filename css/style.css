@@ -18,9 +18,9 @@ nav li {
 nav a {
     text-decoration: none;
     display: block;
-    color: orange;
+    color:  green;
     padding: 0.5rem 1rem;
-
+    font-size: 19px;
 }
 
 nav a:hover {
