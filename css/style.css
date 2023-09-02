@@ -4,6 +4,7 @@ h1 {
 }
 
 /* Navigation */
+
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -14,6 +15,7 @@ nav ul {
 nav li {
     display: inline-block;
 }
+
 
 nav a {
     text-decoration: none;
@@ -27,6 +29,10 @@ nav a:hover {
     background-color: #001dda;
     color: white;
     text-decoration: none;
+}
+
+nav {
+  background-color: #f2f2f2;
 }
 
 /* End of Navigation */
@@ -62,5 +68,6 @@ fieldset {
     color: #7079d8;
     background-color: white;
   }
-  
+
 /* End of Contact Form */
+
