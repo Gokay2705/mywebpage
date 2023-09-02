@@ -1,8 +1,8 @@
 /* body */
 
 h1 {
-    color: red;
-    text-align: center;
+  color: red;
+  text-align: center;
 }
 
 /* Navigation */
@@ -27,29 +27,28 @@ nav {
 }
 
 .nav-links ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
 .nav-links li {
-    display: inline-block;
+  display: inline-block;
 }
 
-
 .nav-links a {
-    text-decoration: none;
-    display: block;
-    color:  green;
-    padding: 0.5rem 1rem;
-    font-size: 19px;
+  text-decoration: none;
+  display: block;
+  color: green;
+  padding: 0.5rem 1rem;
+  font-size: 19px;
 }
 
 .nav-links a:hover {
-    background-color: #001dda;
-    color: white;
-    text-decoration: none;
+  background-color: #001dda;
+  color: white;
+  text-decoration: none;
 }
 
 .menu {
@@ -69,7 +68,7 @@ nav {
   margin: 0.2rem 0rem;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
   .menu {
     display: block;
   }
@@ -85,10 +84,10 @@ nav {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  transform: translateX(100%)
+  transform: translateX(100%);
 }
 
-.nav-links li{
+.nav-links li {
   opacity: 0;
 }
 
@@ -101,34 +100,33 @@ nav-active {
 /* Contact Form */
 
 fieldset {
-    border: 5px solid black;
-    border-radius: 10px;
-    margin-bottom: 2rem;
-  }
-  
-  legend {
-    font-size: 1.3rem;
-    font-weight: bold;
-    margin-top: 1.5rem;
-    margin-bottom: 1rem;
-    display: block;
-    font-family: "Shadows Into Light", cursive;
-  }
-  
-  label {
-    display: inline-block;
-    padding: 0.3rem;
-  }
-  
-  textarea {
-    height: 10rem;
-    padding: 1rem;
-  }
-  
-  button:hover {
-    color: #7079d8;
-    background-color: white;
-  }
+  border: 5px solid black;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+legend {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  display: block;
+  font-family: "Shadows Into Light", cursive;
+}
+
+label {
+  display: inline-block;
+  padding: 0.3rem;
+}
+
+textarea {
+  height: 10rem;
+  padding: 1rem;
+}
+
+button:hover {
+  color: #7079d8;
+  background-color: white;
+}
 
 /* End of Contact Form */
-
