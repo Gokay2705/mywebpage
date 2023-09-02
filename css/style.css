@@ -96,8 +96,20 @@ nav {
   opacity: 0;
 }
 
-nav-active {
+.nav-active {
   transform: translateX(0);
+}
+
+.close .line1 {
+
+}
+
+.close .line2 {
+  
+}
+
+.close .line3 {
+  
 }
 
 @keyframes linksFade {
