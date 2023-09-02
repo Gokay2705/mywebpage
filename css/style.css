@@ -7,19 +7,37 @@ h1 {
 
 /* Navigation */
 
-nav ul {
+nav {
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-logo {
+  font-size: 1.2em;
+  letter-spacing: 3px;font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+}
+
+.nav-links ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     text-align: center;
 }
 
-nav li {
+.nav-links li {
     display: inline-block;
 }
 
 
-nav a {
+.nav-links a {
     text-decoration: none;
     display: block;
     color:  green;
@@ -27,16 +45,32 @@ nav a {
     font-size: 19px;
 }
 
-nav a:hover {
+.nav-links a:hover {
     background-color: #001dda;
     color: white;
     text-decoration: none;
 }
 
-nav {
-  background-color: #f2f2f2;
+.menu {
+  display: block;
+  cursor: pointer; /* make a hand pointer when we got on it*/
 }
 
+.menu .line1,
+.menu .line2,
+.menu .line3 {
+  width: 24px;
+  height: 3px;
+  background-color: green;
+}
+
+.menu .line2 {
+  margin: 0.2rem 0rem;
+}
+
+@media screen and {
+  
+}
 /* End of Navigation */
 
 /* Contact Form */
