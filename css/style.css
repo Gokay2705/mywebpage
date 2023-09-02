@@ -52,7 +52,7 @@ nav {
 }
 
 .menu {
-  display: block;
+  display: none;
   cursor: pointer; /* make a hand pointer when we got on it*/
 }
 
@@ -68,8 +68,10 @@ nav {
   margin: 0.2rem 0rem;
 }
 
-@media screen and {
-  
+@media screen and (max-width: 768px){
+  .menu {
+    display: block;
+  }
 }
 /* End of Navigation */
 
