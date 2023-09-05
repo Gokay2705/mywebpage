@@ -91,9 +91,9 @@ nav {
     top: 8vh;
     right: 0;
     width: 9rem;
-    height: 92vh;
+    height: auto;
     flex-flow: column wrap;
-    align-items: center;
+    align-items: left;
     justify-content:center;
     transform: translateX(100%);
     transition: 0.5s ease;
