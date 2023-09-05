@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Omnia in numeris sita sunt!</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Kavivanar|Open+Sans"
+      rel="stylesheet"
+    />
+    <link href="/css/styles.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="leftheader">
+          <a href="/"
+            ><img class="logo" src="/img/logo.jpg" alt="Merve's Blog"
+          /></a>
+        </div>
+        <div class="rightheader">
+          <h1>Merve's Blog</h1>
+          <p>My Numerology Webpage</p>
+        </div>
+      </header>
+      <!--Lenguage selection-->
+      <div id="google_translate_element" style="text-align: right;"></div>
+      <script type="text/javascript">
+        function googleTranslateElementInit() {
+          new google.translate.TranslateElement(
+            { pageLanguage: "en", includedLanguages: "en,fr,de,tr" },
+            "google_translate_element"
+          );
+        }
+      </script>
+      <script
+        type="text/javascript"
+        src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+      ></script>
+      <!--Lenguage selection End-->
+      <nav>
+        <ul>
+          <li><a href="/home.html">Home</a></li>
+          <li><a href="/index.html">Numerology</a></li>
+          <li><a href="form.html">Form</a></li>
+          <li><a href="/contact/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+        <h1 style="text-align: center">Numerology Request Form</h1>
+        <p>
+          Fill out the form please and then we can analys your life purpose.
+        </p>
+        <!-- Message receiving-->
+        <form
+          class="gform pure-form pure-form-stacked"
+          method="POST"
+          data-email="mustafa.aydin@powercoders.org"
+          action="https://script.google.com/macros/s/AKfycbwNmvvZ0CWNvk6NhrXxv2y_JSzulXe-bf9YrZPSYNKB2GIUUGbHK4mVH2YVSSH9vDW8Tw/exec"
+        >
+          <fieldset>
+            <!-- Form -->
+            <legend>Your contact information</legend>
+            <!-- Laabel: -->
+            <label for="name">Your full-name</label>
+            <input
+              type="text"
+              id="name"
+              name="fullname"
+              placeholder="Your full-name without space!"
+            />
+            <label for="name">Your last-name</label>
+            <input type="text" id="name" name="lastname" /><br />
+            <label for="phone">Phone number</label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="Don't forget to add your area code!"
+            />
+            <label for="Email">Email</label>
+            <input type="text" id="email" name="email" /><br />
+            <label for="date">Birth Date</label>
+            <input type="date" id="date" name="birth date">
+          </fieldset>
+          <fieldset>
+            <legend>Your Requests</legend>
+            <label for="requests">What do you want to learn about you?</label>
+            <select id="requests" name="requests">
+              <option selected>Select One....</option>
+              <!-- Your choise-->
+              <option value="What's my life path ?">What's my life path ?</option>
+              <option value="What's my life purpose ?">What's my life purpose ?</option>
+              <option value="What's the meaning of my birthday number ?">
+                What's the meaning of my birthday number ?
+              </option>
+              <option value="I want a full analys about me.">
+                I want a full analys about me.
+              </option></select
+            ><br />
+            <label for="comments">Special requests:</label>
+            <!-- Message box-->
+            <textarea
+              id="comments"
+              name="comments"
+              placeholder="Tell me about all things!"
+            ></textarea
+            ><br />
+            <label>
+              <input
+                type="checkbox"
+                value="subscribe"
+                name="subscribe me"
+                id="subscribe"
+                checked
+              />Add me to your email list!
+            </label>
+            <!--End -->
+          </fieldset>
+          <center><button type="submit">Submit Your Message</button></center>
+          <br /><br />
+          <!-- Thx message-->
+          <div style="display: none" class="thankyou_message">
+            <!-- Thankyou message -->
+            <h2>
+              <em>Thanks</em> for contacting us! We will get back to you soon!
+            </h2>
+          </div>
+        </form>
+        <script
+          data-cfasync="false"
+          type="text/javascript"
+          src="req-form.js"
+        ></script>
+
+      <footer>
+        <p style="text-align: center">Legal disclaimer, copyright, etc.</p>
+        <ul>
+          <li>
+            <a href="/home.html"><img src="/icons/home.png" alt="Home" /></a>
+          </li>
+          <li>
+            <a href="/index.html"
+              ><img src="/icons/open-menu.png" alt="Blogs"
+            /></a>
+          </li>
+          <li>
+            <a href="/forms/form.html"
+              ><img src="/icons/printer.png" alt="Form"
+            /></a>
+          </li>
+          <li>
+            <a href="/contact/contact.html"
+              ><img src="/icons/wifi-signal.png" alt="Contact"
+            /></a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+  </body>
+</html>
