@@ -12,6 +12,9 @@ h1 {
   text-align: center;
 }
 
+article {
+  padding-left: 1rem;
+}
 /* Navigation */
 
 nav {
