@@ -92,7 +92,7 @@ nav {
     right: 0;
     width: 9rem;
     height: 92vh;
-    flex-direction: column;
+    flex-flow: column wrap;
     align-items: center;
     justify-content:center;
     transform: translateX(100%);
