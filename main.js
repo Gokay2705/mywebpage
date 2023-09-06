@@ -2,7 +2,7 @@ const navShow = () => {
     const menu = document.querySelector('.menu');
     const nav = document.querySelector('.nav-links');
     const links = document.querySelectorAll('.nav-links li');
-
+    
     menu.addEventListener('click',()=>{
         nav.classList.toggle('nav-active');
 

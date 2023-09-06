@@ -40,12 +40,11 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-
-
 article {
   padding-left: 1rem;
   text-align: center;
   padding-right: 1.3rem;
+  padding-top: 1.3rem;
 }
 
 article img {
@@ -108,6 +107,26 @@ nav {
   background-color: #001dda;
   color: white;
   text-decoration: none;
+}
+
+.sub-menu {
+  display: none;
+  position: absolute;
+  background-color: #f2f2f2;
+  max-width: 9rem;
+}
+
+.sub-menu a {
+  display: block;
+  text-align: left;
+}
+
+.sub-menu a:hover {
+  color: white;
+}
+
+.nav-links:hover .sub-menu {
+  display: block;
 }
 
 .menu {
