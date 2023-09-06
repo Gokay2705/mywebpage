@@ -114,15 +114,19 @@ nav {
   position: absolute;
   background-color: #f2f2f2;
   max-width: 9rem;
+  color: green;
 }
 
-.sub-menu a {
+.sub-menu li {
   display: block;
   text-align: left;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
 }
 
-.sub-menu a:hover {
-  color: white;
+.sub-menu li:hover {
+  padding-left: 2rem;
+  color: greenyellow;
 }
 
 .nav-links:hover .sub-menu {
