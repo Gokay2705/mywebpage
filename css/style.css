@@ -176,7 +176,6 @@ li ul li {
     align-items: left;
     justify-content:center;
     transform: translateX(100%);
-    transition: 0.3s ease;
     padding-top: 1rem;
     
   }
