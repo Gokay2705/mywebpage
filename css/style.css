@@ -58,6 +58,15 @@ article::after {
   display: table;
   clear: both;
 }
+.logo {
+  border-radius: 40%;
+  height: 150px;
+  width: 150px;
+}
+
+p {
+  text-align: justify;
+}
 
 .img-logo {
   padding-top: 1rem;
@@ -111,7 +120,7 @@ nav {
 
 .sub-menu {
   display: none;
-  position: absolute;
+  position:static;
   background-color: #f2f2f2;
   max-width: 9rem;
   color: green;
@@ -246,7 +255,7 @@ button:hover {
 
 /* End of Contact Form */
 
-
+/* Footer */
 footer {
   text-align: center;
   font-size: 0.8rem;
@@ -263,13 +272,4 @@ footer ul {
 footer li {
   display: inline-block;
 }
-
-.logo {
-  border-radius: 40%;
-  height: 150px;
-  width: 150px;
-}
-
-p {
-  text-align: justify;
-}
+/* Footer End */
