@@ -124,10 +124,10 @@ nav {
   background-color: #f2f2f2;
   max-width: 9rem;
   color: green;
-}
+ }
 
 .sub-menu li {
-  display: block;
+  display:inline-block;
   text-align: left;
   padding-left: 1rem;
   padding-bottom: 1rem;
