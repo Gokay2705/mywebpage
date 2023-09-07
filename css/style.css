@@ -58,6 +58,7 @@ article::after {
   display: table;
   clear: both;
 }
+
 .logo {
   border-radius: 40%;
   height: 150px;
