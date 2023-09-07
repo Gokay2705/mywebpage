@@ -95,18 +95,18 @@ nav {
 
 }
 
-li ul {
+.nav-links ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   text-align: center;
 }
 
-li {
+.nav-links li {
   display: inline-block;
 }
 
-li a {
+.nav-links a {
   text-decoration: none;
   display: block;
   color: green;
@@ -114,12 +114,12 @@ li a {
   font-size: 19px;
 }
 
-li a:hover {
+.nav-links a:hover {
   background-color: #001dda;
   color: white;
   text-decoration: none;
 }
-/*
+
 .sub-menu {
   display: none;
   position: static;
@@ -147,22 +147,6 @@ li a:hover {
 
 .nav-links:hover .sub-menu {
   display: block;
-}
-*/
-
-ul li ul {
-  background-color: #f2f2f2;
-  display:none;
-  position:absolute;text-align: center;
-  width:9rem;
-}
-
-ul li:hover ul{
-  display:block;
-}
-
-li ul li {
-    display:block; 
 }
 
 .menu {
@@ -209,7 +193,6 @@ li ul li {
 
   .nav-links li {
     opacity: 0;
-    display:flexbox;
   }
 
   .nav-active {
