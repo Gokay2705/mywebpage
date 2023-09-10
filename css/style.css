@@ -72,6 +72,10 @@ p {
 .img-logo {
   padding-top: 1rem;
 }
+tarnslate {
+  text-align: right; 
+  overflow: hidden;
+}
 
 /* Navigation */
 
