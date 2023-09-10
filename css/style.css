@@ -176,9 +176,9 @@ li ul li {
     flex-flow: column wrap;
     align-items: left;
     justify-content:center;
-    transform: translateX(150%);
+    transform: translateX(100%);
     padding-top: 1rem;
-    
+    overflow: hidden;
     
   }
 
