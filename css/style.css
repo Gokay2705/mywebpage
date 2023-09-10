@@ -207,6 +207,11 @@ li ul li {
     transition: .3s ease;
     background-color: red;
   }
+
+  .img-blog {
+    height: auto;
+    width: 90%;
+  }
 }
 
 @keyframes linksFade {
