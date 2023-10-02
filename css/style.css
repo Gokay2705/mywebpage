@@ -48,6 +48,8 @@ article {
 }
 
 article img {
+  max-width:100%;
+  height:auto;
   float: left;
   margin: 0 1rem 1rem 0;
   border-radius: 1rem;
@@ -211,8 +213,8 @@ li ul li {
   }
 
   .img-blog {
-    height: auto;
-    width: 90%;
+    max-width:100%;
+    height:auto;
   }
 }
 
@@ -281,3 +283,8 @@ footer li {
   display: inline-block;
 }
 /* Footer End */
+
+img {
+  max-width:100%;
+  height:auto;
+}
